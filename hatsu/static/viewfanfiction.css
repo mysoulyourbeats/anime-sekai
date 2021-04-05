@@ -1,0 +1,49 @@
+body {
+     background-image: none;
+     width: 100%;
+     background-color:#FFF3D9;
+}
+
+.nav {
+     color: white;
+     background-color: rgb(141, 169, 219); 
+     margin-bottom: 10em;
+}
+
+
+
+.viewfiction-wrapper{
+     background-color: rgba(191, 198, 226,0.5);
+     width:55%;
+     margin:0 auto;
+     border: 1px solid white;
+     border-radius: 0.5em;
+     margin-bottom:10em;
+     padding:2em;
+     background-image:linear-gradient(rgba(191, 198, 226,0.2), rgba(245, 247, 255, 0.5));
+}
+
+h1{
+     text-align:center;
+     color: rgba(250, 142, 142, 0.829);
+
+}
+
+
+
+p{
+     font-family: 'GlacialIndifferenceRegular';
+     color:rgba(0, 0, 0, 0.452);
+     line-height: 1.6em;
+}
+
+
+hr{
+     color: rgba(250, 142, 142, 0.829);
+     width:50%;
+     height:0.2em;
+     background-color: rgba(250, 142, 142, 0.829);
+     border-style: solid;
+     border-radius: 0.1em;
+
+}

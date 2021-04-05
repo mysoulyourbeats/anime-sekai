@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block headcontent %}
+    <style>
+        .flashes{
+            font-size:1em;
+        }
+    </style>
+{% endblock headcontent %}
+
+{% block bodycontent %}
+
+<div class="flashes">
+<div> {{ user.title }} </div><hr>
+<div> {{ user.prose }} </div>
+</div>
+
+{% endblock bodycontent %}

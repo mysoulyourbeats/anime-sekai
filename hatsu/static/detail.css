@@ -1,0 +1,69 @@
+body {
+     background-image: url('../static/minimal2.jpg');
+     background-size: contain;
+     background-position: bottom;
+     width: 100%;
+     background-color:#FFF3D9;
+}
+
+.nav {
+     color: white;
+     background-color: rgb(141, 169, 219); 
+     margin-bottom: 10em;
+}
+
+
+
+.description-wrapper{
+     background-color: rgba(191, 198, 226,0.5);
+     width:60%;
+     margin:0 auto;
+     border: 1px solid white;
+     border-radius: 0.5em;
+     margin-bottom:15em;
+     padding:2em;
+     padding-top:5em;
+     padding-bottom:3em;
+     background-image:linear-gradient(rgba(191, 198, 226,0.2), rgba(245, 247, 255, 0.5));
+}
+
+h1{
+     width:50%;
+     color:rgba(250, 142, 142, 0.829);
+     margin: 0 auto;
+     font-size: 1.5em;
+     text-align: center;
+     font-family: Lato;
+     margin-bottom:1.5em;
+}
+
+.left{
+     display: inline-block;
+     width:50%;
+     vertical-align: middle;
+     margin-right:3em;
+     margin-left:3em;
+     font-size:1.1em;
+     padding-bottom:3.5em;
+}
+
+.right{
+     display: inline-block;
+     vertical-align: middle;
+     width: 31%;
+     background-color:rgba(245, 157, 157, 0.664);
+     border-radius:0.1em;
+}
+
+.cover-image{
+   width:100%;
+   display: block;
+   box-shadow: 0 10px 20px rgba(245, 157, 157, 0.664), 0 6px 6px rgba(245, 157, 157, 0.664);
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.content-text{
+     font-family: 'GlacialIndifferenceRegular';
+     color:rgba(0, 0, 0, 0.452);
+     line-height: 1.6em;
+}

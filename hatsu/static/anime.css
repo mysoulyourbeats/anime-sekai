@@ -1,0 +1,87 @@
+body {
+  background-image: url('../static/minimal2.jpg');
+  background-size: contain;
+  background-position: bottom;
+  width: 100%;
+  min-height: fit-content;
+  background-color:#FFF3D9;
+}
+
+.nav {
+  color: white;
+  background-color: rgba(141, 169, 219);
+}
+
+
+
+.heading{
+  width:50%;
+  color:rgba(250, 142, 142, 0.63);
+  margin: 0 auto;
+  margin-top: 6em;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Lato;
+}
+
+
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 50%;
+  justify-content: space-evenly;
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: rgba(191, 198, 226,0.5);
+  padding: 2em;
+  margin-bottom: 3em;
+}
+
+.cover {
+  width: 170px;
+  height: 230px;
+  border-radius: 4px;
+}
+
+.flex-wrapper ul {
+  padding: 0.7em;
+  background-color: rgba(255, 255, 255, 0.63);
+  border-radius: 4px;
+  list-style: none;
+  width: 170px;
+  margin: 1em 1em;
+}
+
+.flex-wrapper ul li {
+  font-size: 1em;
+  margin-top: 0;
+  line-height: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "GlacialIndifferenceRegular";
+
+}
+
+.flex-wrapper ul li h1 {
+  margin: 0;
+}
+
+.page-btn-wrapper {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 3em;
+}
+
+.page-btn {
+  background-color: rgb(253, 186, 169);
+  color: white;
+  font-family: Ikaros;
+  padding: 0.5em;
+  margin-right: 0.2em;
+  display: inline-block;
+  background-image:linear-gradient( #ff98ab,#ffc3a0);
+}

@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+
+{% block headcontent %}
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/> 
+    <style>
+        @import url("../static/account.css");
+    </style>
+{% endblock headcontent %}
+
+{% block bodycontent %}
+
+<!--
+<div class="userbox">
+    <ul>
+        <li><img class="profilepic" src="{{ image_file }}"></li>
+        <li>Username : <span class="accountdet">{{ current_user.username }}</span></li>
+        <li>Email : <span class="accountdet"> {{ current_user.email }}</span></li>        
+    </ul>
+</div>
+
+<div class="signbox">
+    <h2>Update</h2>        
+    <form action="" method="POST" id="form1">  
+        {{ form.hidden_tag() }}  
+<!--               USERNAME                            -b->
+        {{ form.username.label(class_="form_label") }}
+        {{ form.username(class_="form_input")  }}
+            {% if form.username.errors %}
+                {% for error in form.username.errors %}
+                    <span>{{ error }}</span>
+                {% endfor %}
+            {% endif %}   
+    <!--                    EMAIL                       -b->
+        {{ form.email.label(class_="form_label") }}
+        {{ form.email(class_="form_input")  }}
+        {% if form.email.errors %}
+
+            {% for error in form.email.errors %}
+                <span>{{ error }}</span>
+            {% endfor %}
+
+        {% endif %}
+                            
+    </form>
+    <button type="submit" form="form1">
+        Update
+    </button>   
+</div>
+-->
+
+<div class="userbox">
+    <form action="" method="POST" id="form1">  
+        {{ form.hidden_tag() }}  
+            <ul>
+                <li><img class="profilepic" src="{{ image_file }}"></li>
+                <li>Username : {{ form.username(class_="accountdet") }}   
+                    {% if form.username.errors %}
+                    {% for error in form.username.errors %}
+                        <span>{{ error }}</span>
+                    {% endfor %}
+                     {% endif %} 
+
+                </li>
+              <li>Email : {{ form.email(class_="accountdet")  }}</span></li>  
+            </ul>
+    </form>
+    <button type="submit" form="form1">
+        Update
+    </button> 
+
+</div>
+
+{% endblock bodycontent %} 

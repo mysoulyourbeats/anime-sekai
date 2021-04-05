@@ -1,0 +1,200 @@
+html {
+    scroll-behavior: smooth;
+   }
+
+body{
+    background-image: url("../static/nemui.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(0, 0, 0, 0.568);
+    margin:0;
+    min-height: 850px;
+    min-width: 500px;
+    font-size:1.3em;
+    font-family:'Lato';
+}
+
+@font-face{
+    font-family: Elianto;
+    src: url("Elianto.otf");
+}
+
+
+@font-face{   
+
+    font-family: Ikaros;
+    src: url("Ikaros.otf");
+}
+
+
+   /*========== NAV BAR =============== */
+
+.nav{
+    background-color: transparent;
+    display: flex;
+    color:white;
+    align-items: center;
+    padding:0.7em;
+
+}
+
+.nav ul {
+    display:flex;
+    list-style: none;
+}
+
+.nav ul li{
+    padding:0.5em 1em;
+    margin-right: 0.9em;
+}
+
+.logo{
+   margin-left: 3em;
+   width: 2.5em;
+}
+
+            /*============ BACKGROUND IMAGE ============*/
+.backimg{
+    background-image: url('/static/umi.jpg'),linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35));
+    background-blend-mode: overlay;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    width: 100%;
+    height: 720px;
+}
+
+            /* ============ ANIME SEKAI LOGO ============== */
+
+.sekailogo{
+    display: inline-block;
+    border-width: 7px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: white;
+    padding: 0.2em;
+    font-size: 4em;
+    color:white;
+    width: max-content; 
+    margin-top: 3em;
+}
+
+
+.sekailogo:hover{
+    transform: scale(1.1);
+    transition: 230ms ease-out;
+}
+
+a:link{
+    color: unset;
+    text-decoration: none;
+}
+
+a:active{
+    color: unset;
+    text-decoration: none;
+}
+
+a:visited{
+    color: unset;
+    text-decoration: none;
+}
+
+a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+
+                    /* ============= 
+                            TEXT 
+                       ============= */
+
+h1{
+    font-family: 'Lato';
+    margin-bottom: 1.2em;
+}
+
+
+#aboutwrapper{
+    font-size:1.4em;
+    font-family: 'GlacialIndifferenceRegular';
+    line-height:1.7em;
+}
+
+
+.left{
+    padding-bottom:4em;
+    display:inline-block;
+    vertical-align: middle;
+    width:30%;
+    margin-left: 4em;
+}
+
+.right{
+    padding-bottom:4em;
+    display:inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+
+.aboutwrapper1{
+    background-color: #C38D9E;
+}
+
+.aboutwrapper2{
+    background-color: burlywood;
+}
+
+.aboutwrapper3{
+     background-color:/* rgb(138, 195, 241); */rgb(97, 160, 160);
+}
+
+.aboutwrapper4{
+    background-color: /*rgb(42,154,154); */rgba(199, 155, 93, 0.93);
+}
+
+.aboutwrapper4 .left{
+    width:60%;
+}
+
+.aboutwrapper2 .left{
+    width:60%;
+}
+
+.aboutwrapper2 .right{
+    width:20%; 
+    margin-left:4em;
+}
+
+.aboutwrapper4 .right{
+    width:20%;
+}
+
+
+
+                /* ========== FOOTER NAV BAR ============  */
+.footer{
+    display: flex;
+    background-color: black;
+    color:white;
+}
+
+.footer ul{
+    display:flex;
+    list-style:none;
+}
+
+.footer ul li{
+    margin-left: 1em;
+    padding: 1em;
+}
+
+.logofooter{
+    margin-top:1em;
+    color: burlywood;
+}
+
+

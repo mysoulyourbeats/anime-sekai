@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block headcontent %}
+<style>
+    @import url("../static/signio.css");
+    .mypostheight{
+        height: 10em;
+    }
+</style>
+{% endblock headcontent %}
+
+{% block bodycontent %}
+<div class="signbox">
+<form id="form1" action="" method="POST">
+    {{ form.hidden_tag() }} 
+        <div>Title {{ form.title }} {% if form.title.errors %}
+            {% for error in form.title.errors %}
+                <span>{{ error }}</span>
+             {% endfor %}
+             {% endif %} 
+        </div>
+        <div>Prose {{ form.prose(class_="mypostheight") }}
+            {% if form.prose.errors %}
+            {% for error in form.prose.errors %}
+                <span>{{ error }}</span>
+             {% endfor %}
+             {% endif %} 
+        </div>
+</form>
+
+<button type="submit" form="form1">
+    Submit Prose
+</button>
+</div>
+{% endblock bodycontent %}

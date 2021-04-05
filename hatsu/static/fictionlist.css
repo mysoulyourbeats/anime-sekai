@@ -1,0 +1,67 @@
+body {
+     background-image: none;
+     width: 100%;
+     background-color:#FFF3D9;
+}
+
+.nav {
+     color: white;
+     background-color: rgb(141, 169, 219); 
+     margin-bottom: 10em;
+}
+
+
+
+.fiction-wrapper{
+     background-color: rgba(191, 198, 226,0.5);
+     width:55%;
+     margin:0 auto;
+     border: 1px solid white;
+     border-radius: 0.5em;
+     margin-bottom:10em;
+     padding:2em;
+     background-image:linear-gradient(rgba(191, 198, 226,0.2), rgba(245, 247, 255, 0.5));
+     max-width:1000px;
+   
+}
+
+p{
+     max-height: 250px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     max-width:1000px;
+     display: -webkit-box;
+     -webkit-line-clamp: 5;
+     -webkit-box-orient: vertical;
+
+}
+
+h1{
+     text-align:center;
+     color: rgba(250, 142, 142, 0.829);
+
+}
+
+.epk:hover{
+     color: rgba(253, 91, 91, 0.788);
+     transform: scale(1.1);
+     transition: 230ms ease-out;
+}
+
+p{
+     font-family: 'GlacialIndifferenceRegular';
+     color:rgba(0, 0, 0, 0.452);
+     line-height: 1.6em;
+}
+
+
+hr{
+     color: rgba(250, 142, 142, 0.829);
+     width:50%;
+     height:0.1em;
+     background-color: rgba(250, 142, 142, 0.829);
+     border-style: solid;
+     border-radius: 0.1em;
+
+}
+

@@ -1,0 +1,98 @@
+
+ 
+
+        /* ============ SIGN UP BOX ================ */
+        .box-wrapper{
+            text-align:right;
+            margin-top: 3em;
+            margin-right:5em;
+        }
+        
+        .box{
+            display: inline-block;
+            text-align:center;
+            padding: 1em;
+            width: 21%;
+            border-radius: 0.6em;
+            border: solid 0.5px;
+            border-color: rgba(255, 255, 255, 0.863);
+            color:rgba(255, 255, 255, 0.726);
+            background-color: rgba(1, 1, 1, 0.397);
+        }    
+        
+        
+        h1{
+            border-bottom: solid 2px rgba(255, 255, 255, 0.726);
+            padding-bottom: 0.7em;
+            margin-bottom:0.5em;
+            font-size:1.7em;
+            
+        }
+        
+        input{
+            margin-top:2em;
+            border-width: 0px;
+            color:rgba(255, 255, 255, 0.726);
+            width:80%;
+            font-size:1em;
+            font-family: Ikaros;
+            background-color: inherit;
+            border-bottom-color: rgba(255, 255, 255, 0.568);
+            border-bottom-width: 1.8px;
+            font-weight: normal;
+        }
+        
+        ::placeholder{
+            color:rgba(255, 255, 255, 0.568);
+            opacity:1;
+            font-family: Ikaros;
+        }
+        
+        ::placeholder:focus{
+            color: transparent;
+        }
+        
+        input:focus{
+            outline:none;
+        }
+        
+        textarea:focus{
+            outline:none;
+        }
+        
+        select:focus{
+            outline:none;
+        }
+        
+        
+        input:focus{
+            border-bottom-color: rgba(255, 255, 255, 0.904);
+        }
+        form div{
+            margin-top:0.3em;
+        }
+        .errors{
+            color:rgb(253, 194, 66);
+            font-size:0.8em;
+        }
+        
+        button{
+            background-color: transparent;
+            color:white;
+            padding: 0.5em 1em;
+            font-size:0.85em;
+            font-family: Ikaros;
+            margin-top:2.7em;
+            margin-bottom:1em;
+            border-radius:0.3em;
+            border-width:1.5px;
+            border-color:rgba(255, 255, 255, 0.685);
+            border-style: solid;
+            cursor:pointer;
+        }
+        
+        button:hover{
+            background-color: white;
+            color:black;
+            transition: 500ms;
+        }

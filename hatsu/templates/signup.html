@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+    {% block headcontent %}
+        <style>
+            @import url("../static/signio.css");
+        </style>
+    {% endblock headcontent %}
+{% block bodycontent %}
+
+    <div class="signbox">
+        <h2>Shinda Sekai Sensen</h2>        
+        <form action="" method="POST" id="form1">  
+            {{ form.hidden_tag() }}  
+    <!--               USERNAME                            -->
+            {{ form.username.label(class_="form_label") }}
+            {{ form.username(class_="form_input")  }}
+                {% if form.username.errors %}
+                    {% for error in form.username.errors %}
+                        <span>{{ error }}</span>
+                    {% endfor %}
+                {% endif %}   
+        <!--                    EMAIL                       -->
+            {{ form.email.label(class_="form_label") }}
+            {{ form.email(class_="form_input")  }}
+            {% if form.email.errors %}
+
+                {% for error in form.email.errors %}
+                    <span>{{ error }}</span>
+                {% endfor %}
+
+            {% endif %}
+        <!--          PASSWORD         -->
+
+            {{ form.password.label(class_="form_label") }}
+            {{ form.password(class_="form_input")  }}
+            {% if form.password.errors %}
+
+                {% for error in form.password.errors %}
+                    <span>{{ error }}</span>
+                {% endfor %}
+
+            {% endif %}
+     <!--         CONFIRM PASSWORD         -->   
+
+         {{ form.confirm_password.label(class_="form_label") }}
+         {{ form.confirm_password(class_="form_input")  }}
+         {% if form.confirm_password.errors %}
+
+             {% for errdor in form.confirm_password.errors %}
+                 <span>{{ errdor + 'gayyy'}}</span>
+             {% endfor %}
+         {% endif %}
+
+         <!--{{ form.submit }} -->
+            <!--
+            <label class="form_label" for="username">Username</label>
+            <input class="form_input" type="text" id="username" name="ussy">
+            <label class="form_label" for="passy">Password</label>
+            <input class="form_input" name="password" id="passy" type="password">
+            -->
+
+        </form>
+        <button type="submit" form="form1">
+            Login
+        </button>   
+    </div>
+
+{% endblock bodycontent %}

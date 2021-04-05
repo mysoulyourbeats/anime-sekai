@@ -1,0 +1,92 @@
+
+/* ============================= MY CSS ============================= */
+
+@font-face{
+    font-family: Elianto;
+    src: url("Elianto.otf");
+}
+
+
+@font-face{   
+
+    font-family: Ikaros;
+    src: url("Ikaros.otf");
+}
+
+
+
+body{
+    background-image: url("../static/nemui.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
+    font-size:1.3em;
+    font-family:'Lato';
+}
+
+.flashes{
+    color:rgba(255, 255, 255, 0.808);
+    font-family: 'GlacialIndifferenceRegular';
+    background-color: rgba(1,1,1,0.3);
+    font-size:1.5em;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    padding: 0.5em;   
+    margin-top: 9em;
+    border: solid 1px rgba(255, 255, 255, 0.664);
+    border-radius: 3.5px;
+}
+
+.flashes li{
+    list-style:none;
+}
+
+
+/*========== NAV BAR =============== */
+
+.nav{
+    background-color: transparent;
+    display: flex;
+    color:white;
+    align-items: center;
+    padding:0.7em;
+
+}
+
+.nav ul {
+    display:flex;
+    list-style: none;
+}
+
+.nav ul li{
+    padding:0.5em 1em;
+    margin-right: 0.9em;
+}
+
+.logo{
+   margin-left: 3em;
+   width: 2.5em;
+}
+
+
+a:link{
+    color: unset;
+    text-decoration: none;
+}
+
+a:active{
+    color: unset;
+    text-decoration: none;
+}
+
+a:visited{
+    color: unset;
+    text-decoration: none;
+}
+
+a:hover{
+    color: unset;
+    text-decoration: none;
+}
